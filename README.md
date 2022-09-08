@@ -24,11 +24,11 @@ Install and have your USB Rubber Ducky working in less than 5 minutes.
 
 2. Plug the device into a USB port while holding the boot button. It will show up as a removable media device named `RPI-RP2`.
 
-3. Copy the downloaded `.uf2` file to the root of the Pico (`RPI-RP2`). The device will reboot and after a second or so, it will reconnect as `CIRCUITPY`.
+3. Copy the downloaded `.uf2` file from CircuitPython to the root of the Pico (`RPI-RP2`). The device will reboot and after a second or so, it will reconnect as `CIRCUITPY`.
 
 4. Download `adafruit-circuitpython-bundle-7.x-mpy-YYYYMMDD.zip` [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/latest) and extract it outside the device.
 
-5. Navigate to `lib` in the recently extracted folder and copy `adafruit_hid` to the `lib` folder in your Raspberry Pi Pico.
+5. Navigate to `lib` in the recently extracted folder and copy `adafruit_hid folder` to the `lib` folder in your Raspberry Pi Pico.
 
 6. Copy `adafruit_debouncer.mpy` and `adafruit_ticks.mpy` to the `lib` folder in your Raspberry Pi Pico.
 
@@ -41,7 +41,7 @@ Install and have your USB Rubber Ducky working in less than 5 minutes.
 ### Setup mode
 
 To edit the payload, enter setup mode by connecting the pin 1 (`GP0`) to pin 3 (`GND`), this will stop the pico-ducky from injecting the payload in your own machine.
-The easiest way to so is by using a jumper wire between those pins as seen bellow.
+The easiest way to do so is by using a jumper wire between those pins as seen below.
 
 ![Setup mode with a jumper](images/setup-mode.png)
 
